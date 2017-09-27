@@ -1,0 +1,14 @@
+{
+	"name": "nystudio107/eagerbeaver",
+	"description": "Allows you to eager load elements from auto-injected Entry elements on demand from your templates.",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "nystudio107",
+			"homepage": "https://nystudio107.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
