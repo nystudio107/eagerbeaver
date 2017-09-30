@@ -60,7 +60,7 @@ class EagerBeaverPlugin extends BasePlugin
      */
     public function getVersion()
     {
-        return '1.0.0';
+        return '1.0.1';
     }
 
     /**
@@ -94,4 +94,15 @@ class EagerBeaverPlugin extends BasePlugin
     {
         return false;
     }
+
+    /**
+     * @return SeomaticTwigExtension
+     */
+    public function addTwigExtension()
+    {
+        Craft::import('plugins.eagerbeaver.twigextensions.EagerBeaverTwigExtension');
+
+        return new EagerBeaverTwigExtension();
+    }
+
 }

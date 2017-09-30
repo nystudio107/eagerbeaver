@@ -1,10 +1,19 @@
 [
-    {
-        "version": "1.0.0",
-        "downloadUrl": "https://github.com/nystudio107/eagerbeaver/archive/master.zip",
-        "date": "2017-09-27T20:07:51.630Z",
-        "notes": [
-            "[Added] Initial release"
-        ]
-    }
+  {
+    "version": "1.0.1",
+    "downloadUrl": "https://github.com/nystudio107/eagerbeaver/archive/master.zip",
+    "date": "2017-09-30T20:07:51.630Z",
+    "notes": [
+      "[Added] Added a TwigExtension to allow for the less verbose `do eagerLoadElements()` syntax",
+      "[Improved] Updated README.md"
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "downloadUrl": "https://github.com/nystudio107/eagerbeaver/archive/master.zip",
+    "date": "2017-09-27T20:07:51.630Z",
+    "notes": [
+      "[Added] Initial release"
+    ]
+  }
 ]

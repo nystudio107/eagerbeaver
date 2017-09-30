@@ -33,6 +33,18 @@ There's nothing to configure.
 ## Using Eager Beaver
 
 To use Eager Beaver, simply do something like:
+
+```
+{% do eagerLoadElements(entry, [
+    'author.userPicture',
+    'blogCategory',
+    'blogImage',
+    'blogContent.image:image'
+]) %}
+```
+
+Or you can use the more verbose syntax to do the same thing:
+
 ```
 {% do craft.eagerBeaver.eagerLoadElements(entry, [
     'author.userPicture',
@@ -41,7 +53,6 @@ To use Eager Beaver, simply do something like:
     'blogContent',
     'blogContent.image:image'
 ]) %}
-
 ```
 
 The first parameter is the Element or array of Elements that you want to eager-load sub-elements into, such as an `entry`. If you pass in an array of Elements, they must all be the same type.
