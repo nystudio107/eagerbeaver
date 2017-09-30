@@ -4,6 +4,8 @@ Allows you to eager load elements from auto-injected Entry elements on demand fr
 
 ![Screenshot](resources/screenshots/beaver.png)
 
+Related: [Eager Beaver for Craft 3.x](https://github.com/nystudio107/craft3-eagerbeaver)
+
 ## Installation
 
 To install Eager Beaver, follow these steps:
